@@ -17,11 +17,11 @@ export const routes: Routes = [
   },
   {
     path: 'books',
-    loadChildren: 'app/book-monkey/iteration-6/routing/book/book.module#BookModule'
+    loadChildren: 'appbook/book.module#BookModule'
   },
   {
     path: 'admin',
-    loadChildren: 'app/book-monkey/iteration-6/routing/admin/admin.module#AdminModule',
+    loadChildren: 'appadmin/admin.module#AdminModule',
     canActivate: [CanNavigateToAdminGuard]
   }
 ];
