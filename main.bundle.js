@@ -51526,11 +51526,11 @@ var routes = [
     },
     {
         path: 'books',
-        loadChildren: 'app/book-monkey/iteration-6/routing/book/book.module#BookModule'
+        loadChildren: 'appbook/book.module#BookModule'
     },
     {
         path: 'admin',
-        loadChildren: 'app/book-monkey/iteration-6/routing/admin/admin.module#AdminModule',
+        loadChildren: 'appadmin/admin.module#AdminModule',
         canActivate: [__WEBPACK_IMPORTED_MODULE_3__can_navigate_to_admin_guard__["a" /* CanNavigateToAdminGuard */]]
     }
 ];
