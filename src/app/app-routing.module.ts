@@ -5,7 +5,7 @@ import { HomeComponent } from './home/home.component';
 import { AdminModule } from './admin/admin.module';
 import { CanNavigateToAdminGuard } from './can-navigate-to-admin.guard';
 
-export const routes: Routes = [
+const routes: Routes = [
   {
     path: '',
     redirectTo: 'home',
