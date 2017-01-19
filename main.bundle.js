@@ -356,7 +356,10 @@ var AppModule = (function () {
                 __WEBPACK_IMPORTED_MODULE_1__angular_http__["a" /* HttpModule */],
                 __WEBPACK_IMPORTED_MODULE_6__app_routing_module__["a" /* AppRoutingModule */]
             ],
-            providers: [__WEBPACK_IMPORTED_MODULE_5__shared_book_store_service__["a" /* BookStoreService */]],
+            providers: [
+                __WEBPACK_IMPORTED_MODULE_5__shared_book_store_service__["a" /* BookStoreService */],
+                { provide: __WEBPACK_IMPORTED_MODULE_2__angular_core__["LOCALE_ID"], useValue: 'de' }
+            ],
             bootstrap: [__WEBPACK_IMPORTED_MODULE_3__app_component__["a" /* AppComponent */]]
         }), 
         __metadata('design:paramtypes', [])
